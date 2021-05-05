@@ -14,6 +14,15 @@ public class FindMax {
         }
         return max;
     }
-
+public Double maximum(Double num1, Double num2, Double num3) {
+        Double max = num1;
+        if (num2.compareTo(max) > 0) {
+            max = num2;
+        }
+        if (num3.compareTo(max) > 0) {
+            max = num3;
+        }
+        return max;
+    }
 }
 
